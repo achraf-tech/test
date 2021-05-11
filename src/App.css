@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  background: url("./images/TOM.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#whatever {
+  background: #1f2235;
+}
+.navbar {
+  width: 50%;
+  height: 10px;
+  top: 0;
+  position: fixed;
+  background: #1f2235;
+  z-index: 1;
+}
+
+.navbar__container {
+  display: flex;
+  height: 1000px;
+  width: 100%;
+  border: red 9 solid;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+.navbar__right {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+ 
+  /* background: pink; */
+ 
+  /* justify-content: space-between; */
+}
+.navbar__right li a {
+   
+
+ 
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 0px 20px;
+  margin-right: 15PX;
+
+ 
+  
+
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+.navbar__left-logo img {
+  width: 110px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+/*grid system*/
+.row{
+
+  display: flex;
+  width: 100% 
+
+}
+.col-6{
+  width: 50%;
+}
+/*header*/
+.header__content{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.header__ul {
+  list-style-type: none;
+  display: flex;
+
+}
+.header__ul li {
+  width: 50px;
+  height: 50px;
+  border: 1.5px solid #ff4a57;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
